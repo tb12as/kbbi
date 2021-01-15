@@ -46,6 +46,10 @@
       }
     },
 
+    mounted() {
+      document.title = 'Kamus Besar Bahasa Indonesia'
+    },
+
     watch: {
       q: function() {
         this.searching = true
